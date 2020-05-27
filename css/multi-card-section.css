@@ -1,0 +1,40 @@
+.multi-card{
+    margin: 20px 0;
+}
+.card-container{
+ display: grid;
+ grid-template-columns: repeat(4,1fr);
+ grid-gap:20px;
+}
+
+.card img{
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.card p{
+    padding-top: 10px;
+}
+.btn-card{
+    background-color: transparent;
+    border: none;
+    color:rgba(18, 103, 160, 0.685);
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-gap:20px;
+   }
+   .footer{
+       width:90%;
+       margin:auto;
+       background-color: #fff8f8;
+   }
+   .footer-ul{
+    width:90%;
+    margin:auto;
+    padding-left: 20px;
+   }
+.footer-ul li{
+    padding:5px ;
+}
